@@ -12,3 +12,9 @@ variable "ami_id" {
   description = "Imagen de servidor"
   default     = "ami-0c02fb55956c7d316"
 }
+
+variable "environment" {
+  description = "Environment name"
+  type        = string
+  default     = "development"
+}
