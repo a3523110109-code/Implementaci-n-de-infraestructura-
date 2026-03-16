@@ -3,8 +3,10 @@ resource "aws_vpc" "laboratorio_vpc" {
   cidr_block = "10.0.0.0/16"
 
   tags = {
-    Name = "laboratorio-vpc"
-  }
+  Name = "laboratorio-vpc"
+  Environment = "Development"
+}
+
 
 }
 
